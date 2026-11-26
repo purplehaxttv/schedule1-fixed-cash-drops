@@ -39,9 +39,9 @@ flowchart LR
 ## Install
 
 1. Install [MelonLoader](https://melonwiki.xyz/) 0.7.x into Schedule I and start the game once.
-2. Build the mod (see below) or take a built `ATMFixedDrop.dll`.
+2. Download `ATMFixedDrop.dll` from the [latest release](https://github.com/purplehaxttv/schedule1-fixed-cash-drops/releases/latest), or build it yourself (see below).
 3. Copy it into `Schedule I\Mods\`.
-4. Start the game. The console prints a line such as `Fixed Cash Drops v1.9 loaded. ATMs: random roll x7, Cuke machines: random roll x7, recyclers: trash value x7.`
+4. Start the game. The console prints a line such as `Fixed Cash Drops v1.0 loaded. ATMs: random roll x7, Cuke machines: random roll x7, recyclers: trash value x7.`
 
 In multiplayer the host's copy of the mod decides the payouts.
 
@@ -84,3 +84,7 @@ Tested on game version 0.4.7f12.
 
 - [schedule1-supply-run](https://github.com/purplehaxttv/schedule1-supply-run): a courier that moves your own stock between properties.
 - [schedule1-chat-fx](https://github.com/purplehaxttv/schedule1-chat-fx): lets Firebot chat commands and redeems trigger effects in the game.
+
+## License
+
+MIT. See [LICENSE](LICENSE). Not affiliated with TVGS, the developer of Schedule I.

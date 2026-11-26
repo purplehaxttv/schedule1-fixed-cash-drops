@@ -5,7 +5,7 @@ using HarmonyLib;
 using Il2CppScheduleOne.Money;
 using Il2CppScheduleOne.ObjectScripts;
 
-[assembly: MelonInfo(typeof(ATMFixedDrop.Core), "Fixed Cash Drops", "1.9.0", "purplehaxttv")]
+[assembly: MelonInfo(typeof(ATMFixedDrop.Core), "Fixed Cash Drops", "1.0.0", "purplehaxttv")]
 [assembly: MelonGame("TVGS", "Schedule I")]
 
 namespace ATMFixedDrop
@@ -73,7 +73,7 @@ namespace ATMFixedDrop
             verboseEntry = cfg.CreateEntry("VerboseLog", false, description: "Log every recycler value change (for troubleshooting).");
             string recycler = !FixRecycler ? "vanilla" : RecyclerMultiplier > 0f ? $"trash value x{RecyclerMultiplier}" : $"flat ${PayoutDollars}";
             string machine = MachineMultiplier > 0f ? $"random roll x{MachineMultiplier}" : $"flat ${PayoutDollars}";
-            Log.Msg($"Fixed Cash Drops v1.9 loaded. ATMs: {(FixATM ? machine : "vanilla")}, Cuke machines: {(FixCukeMachine ? machine : "vanilla")}, recyclers: {recycler}.");
+            Log.Msg($"Fixed Cash Drops v1.0 loaded. ATMs: {(FixATM ? machine : "vanilla")}, Cuke machines: {(FixCukeMachine ? machine : "vanilla")}, recyclers: {recycler}.");
         }
     }
 
