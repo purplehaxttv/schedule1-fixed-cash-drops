@@ -12,3 +12,6 @@ obj/
 
 # Local tooling
 .claude/
+
+# Thunderstore upload archives
+*.zip
