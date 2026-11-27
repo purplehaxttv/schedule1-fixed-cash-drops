@@ -1,0 +1,9 @@
+{
+  "name": "FixedCashDrops",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/purplehaxttv/schedule1-fixed-cash-drops",
+  "description": "Broken ATMs, broken Cuke machines and trash recyclers pay more: the game's own amount times 7 by default. Each source can be tuned or switched off.",
+  "dependencies": [
+    "LavaGang-MelonLoader-0.7.3"
+  ]
+}
